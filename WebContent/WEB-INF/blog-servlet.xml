@@ -14,12 +14,13 @@
 		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
 
-
+	<!-- Setup HeaderFilter package to intercept requests -->
 	<bean id="xFrameOptionsHeaderFilter" class="com.blog.security.XFrameOptionsHeaderFilter"/>
 	
 	<context:component-scan
 		base-package="com.blog.controller, com.blog.dao, com.blog.model, com.blog.event, com.blog.validation, com.blog.security" />
-
+	
+	<!-- Map JSP view files -->
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
 		<property name="viewClass"
@@ -27,15 +28,23 @@
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-
-	<bean id="dataSource"
+	
+	<!-- define jdbc.properties file -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    		<property name="locations" value="classpath:jdbc.properties"/>
+	</bean>
+	
+	<! -- JDBC MySQL configuration -->
+	<bean id="dataSource" 
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/<db_name>" />
-		<property name="username" value="username" />
-		<property name="password" value="password" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
 	</bean>
+	
+	<!-- Add dataSource to each DAO implementation class -->
 	<bean id="subscriberDAO" class="com.blog.dao.SubscriberDAOImpl">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
@@ -50,11 +59,14 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 	
+	<!-- Erro validation messages properties file configuration -->
 	<bean id="messageSource"
 		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
 		<property name="basename" value="classpath:ValidationMessages" />
 		<property name="fallbackToSystemLocale" value="false" />
 	</bean>
+	
+	<!-- JavaMail Configuration, currently using Gmail SMTP -->
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
 		<!-- SMTP settings -->
 		<property name="host" value="smtp.gmail.com" />
@@ -71,11 +83,13 @@
 			</props>
 		</property>
 	</bean>
-
+	
+	<!-- FreeMaker email template creator configuration -->
 	<bean id="freemarkerConfiguration"
 		class="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBean">
 		<property name="templateLoaderPath" value="/WEB-INF/jsp/templates/" />
 	</bean>
+	<!-- Map resources folder -->
 	<mvc:resources mapping="/resources/**" location="/resources/" />
 	<mvc:annotation-driven />
 	
