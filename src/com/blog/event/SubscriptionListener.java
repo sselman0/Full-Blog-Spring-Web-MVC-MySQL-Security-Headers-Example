@@ -68,7 +68,7 @@ ApplicationListener<OnSubscriptionCompleteEvent> {
 	        model.put("action", "UNSUBSCRIBE");
 	        model.put("unsubscribe_link", "http://localhost:8080" + confirmationUrl);
 	        String body =  geFreeMarkerTemplateContent(model);
-	        MimeMessage message = mailSender.createMimeMessage();// SimpleMailMessage email = new SimpleMailMessage();
+	        MimeMessage message = mailSender.createMimeMessage();
 	        MimeMessageHelper helper;
 			try {
 				helper = new MimeMessageHelper(message,
