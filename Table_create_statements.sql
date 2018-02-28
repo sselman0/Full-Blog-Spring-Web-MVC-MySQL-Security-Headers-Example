@@ -53,3 +53,27 @@ CREATE TABLE `contact_list` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
+
+/*
+  Pre-populate posts table with two posts
+*/
+INSERT INTO `contact`.`posts`
+(`title`,
+`source`,
+`img_source`,
+`summary_one`,
+`summary_two`,
+`published_at`)
+VALUES
+('Google Search Advanced Tricks','https://localhost:8443/webapp/posts/google-search-advanced-tricks','https://localhost:8443/webapp/resources/img/post1.jpg','If you are the type of person that uses Google often without knowing any search techniques, it can get frustrating filtering through the enourmous list of results.','You can be searching for whichever purpose, school essay, online tutorials, restaurants, etc. This can be very handy!!' ,'2018-02-20');
+
+INSERT INTO `contact`.`posts`
+(`title`,
+`source`,
+`img_source`,
+`summary_one`,
+`summary_two`,
+`published_at`)
+VALUES
+('OWASP ZAP WEB Vulnerability Scanner', 'https://localhost:8443/webapp/posts/owasp-zap-tutorial', 'https://localhost:8443/webapp/resources/img/post2.jpg', 'OWASP ZAP is one of the world\'s most popular free security tool that is actively maintained by valunteers around the world.', 'OWASP ZAP is the swiss army knife of web assessment tools.It can provide great assistant in automating some of the security\ntesting or payload injection.', '2018-02-22');
+
