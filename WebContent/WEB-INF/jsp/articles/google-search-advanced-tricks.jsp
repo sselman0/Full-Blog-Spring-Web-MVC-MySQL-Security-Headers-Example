@@ -43,7 +43,7 @@
 </head>
 <body>
 
-	<!-- Facebook comment init div -->
+	<!-- Facebook comment init div | replace with your own for facebook comments section -->
 	<div id="fb-root"></div>
 	<script type="text/javascript">
 		(function(d, s, id) {
@@ -52,7 +52,7 @@
 				return;
 			js = d.createElement(s);
 			js.id = id;
-			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=167828083997143&autoLogAppEvents=1';
+			js.src = 'fillhere';
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
@@ -360,7 +360,7 @@
 				</div>
 	<hr>
 	<div class="fb-comments"
-		data-href="https://sselman.ca/google-search-advanced-tricks"
+		data-href="https://localhost:8443.ca/google-search-advanced-tricks"
 		data-numposts="5"></div>
 	</section>
 
