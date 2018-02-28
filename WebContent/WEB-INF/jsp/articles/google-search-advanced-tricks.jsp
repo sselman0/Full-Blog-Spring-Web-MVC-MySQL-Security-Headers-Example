@@ -6,10 +6,10 @@
 <head>
 
 <meta property="og:image"
-	content="https://sselman.ca/resources/img/post1.jpg" />
+	content="https://localhost:8443/resources/img/post1.jpg" />
 <meta property="og:type" content="UTF-8" />
 <meta property="og:title" content="Google Search Advanced Tricks" />
-<meta property="og:url" content="https://sselman.ca/posts/google-search-advanced-tricks" />
+<meta property="og:url" content="https://localhost:8443/posts/google-search-advanced-tricks" />
 <meta property="og:description"
 	content="Learn about Google Search Advanced Operators to master your Google Search skills" />
 	
@@ -43,7 +43,7 @@
 </head>
 <body>
 
-	<!-- Facebook comment init div | replace with your own for facebook comments section -->
+	<!-- Facebook comment init div -->
 	<div id="fb-root"></div>
 	<script type="text/javascript">
 		(function(d, s, id) {
@@ -52,7 +52,7 @@
 				return;
 			js = d.createElement(s);
 			js.id = id;
-			js.src = 'fillhere';
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=167828083997143&autoLogAppEvents=1';
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
@@ -70,16 +70,16 @@
 				<br>
 				<div class="btn-toolbar">
 					<a
-						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sselman.ca/posts/google-search-advanced-tricks"
+						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//localhost:8443/posts/google-search-advanced-tricks"
 						class="btn btn-social-icon btn-facebook"> <span
 						class="fa fa-facebook"></span>
-					</a> <a href="https://twitter.com/home?status=https%3A//sselman.ca/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-twitter"> <span
+					</a> <a href="https://twitter.com/home?status=https%3A//localhost:8443/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-twitter"> <span
 						class="fa fa-twitter"></span>
-					</a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//sselman.ca/posts/google-search-advanced-tricks&title=&summary=&source=" class="btn btn-social-icon btn-linkedin"> <span
+					</a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//localhost:8443/posts/google-search-advanced-tricks&title=&summary=&source=" class="btn btn-social-icon btn-linkedin"> <span
 						class="fa fa-linkedin"></span>
-					</a><a href="https://plus.google.com/share?url=https%3A//sselman.ca/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-google"> <span
+					</a><a href="https://plus.google.com/share?url=https%3A//localhost:8443/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-google"> <span
 						class="fa fa-google"></span>
-					</a><a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//sselman.ca/posts/google-search-advanced-tricks&description=" class="btn btn-social-icon btn-pinterest"> <span
+					</a><a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//localhost:8443/posts/google-search-advanced-tricks&description=" class="btn btn-social-icon btn-pinterest"> <span
 						class="fa fa-pinterest"></span>
 					</a>
 				</div>
@@ -162,9 +162,9 @@
 								<th scope="row">5</th>
 								<td>inurl</td>
 								<td>Search for websites containing a keyword in the URL</td>
-								<td>inurl:sselman.ca</td>
+								<td>inurl:posts</td>
 								<td valign="center" align="center"><a
-									href="https://www.google.com/search?q=inurl:sselman.ca"
+									href="https://www.google.com/search?q=inurl:posts"
 									target="_blank"
 									class="btn btn-primary btn-sm active btn-round-sm"
 									role="button" aria-pressed="true">TRY IT</a></td>
@@ -185,9 +185,9 @@
 								<th scope="row">7</th>
 								<td>site</td>
 								<td>Search for something in a specific site</td>
-								<td>contact site:sselman.ca</td>
+								<td>sselman site:facebook.com</td>
 								<td valign="center" align="center"><a
-									href="https://www.google.com/search?q=contact site:sselman.ca"
+									href="https://www.google.com/search?q=sselman site:facebook.com"
 									target="_blank"
 									class="btn btn-primary btn-sm active btn-round-sm"
 									role="button" aria-pressed="true">TRY IT</a></td>
@@ -231,9 +231,9 @@
 								<th scope="row">11</th>
 								<td>related</td>
 								<td>Search sites that are related to given domain</td>
-								<td>related:sselman.ca</td>
+								<td>related:facebook.com</td>
 								<td valign="center" align="center"><a
-									href="https://www.google.com/search?q=related:sselman.ca"
+									href="https://www.google.com/search?q=related:facebook.com"
 									target="_blank"
 									class="btn btn-primary btn-sm active btn-round-sm"
 									role="button" aria-pressed="true">TRY IT</a></td>
@@ -345,16 +345,16 @@
 	</div>
 		<div class="btn-toolbar">
 					 <a
-						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sselman.ca/posts/google-search-advanced-tricks"
+						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//localhost:8443/posts/google-search-advanced-tricks"
 						class="btn btn-social-icon btn-facebook"> <span
 						class="fa fa-facebook"></span>
-					</a> <a href="https://twitter.com/home?status=https%3A//sselman.ca/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-twitter"> <span
+					</a> <a href="https://twitter.com/home?status=https%3A//localhost:8443/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-twitter"> <span
 						class="fa fa-twitter"></span>
-					</a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//sselman.ca/posts/google-search-advanced-tricks&title=&summary=&source=" class="btn btn-social-icon btn-linkedin"> <span
+					</a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//localhost:8443/posts/google-search-advanced-tricks&title=&summary=&source=" class="btn btn-social-icon btn-linkedin"> <span
 						class="fa fa-linkedin"></span>
-					</a><a href="https://plus.google.com/share?url=https%3A//sselman.ca/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-google"> <span
+					</a><a href="https://plus.google.com/share?url=https%3A//localhost:8443/posts/google-search-advanced-tricks" class="btn btn-social-icon btn-google"> <span
 						class="fa fa-google"></span>
-					</a><a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//sselman.ca/posts/google-search-advanced-tricks&description=" class="btn btn-social-icon btn-pinterest"> <span
+					</a><a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//localhost:8443/posts/google-search-advanced-tricks&description=" class="btn btn-social-icon btn-pinterest"> <span
 						class="fa fa-pinterest"></span>
 					</a>
 				</div>
