@@ -12,6 +12,7 @@ Everything else is under MIT License
 About this project:
 
 Project includes a sample of each:
+- Spring Web MVC (XML configuration)
 - Spring Security Headers configuration (Java)
 - Spring MySQL datasource configuration (XML)
 - Javax Validation
@@ -20,5 +21,6 @@ Project includes a sample of each:
 -Youtube video Gallery (Will can only see Gallery template when you populate videos TABLE with sample URLS
 - Form/input validation
 -Logging (log4j Spring configuration setup)
+- Send email through gmail account (replace email host and port if not using gmail)
 
 Enjoy :)
