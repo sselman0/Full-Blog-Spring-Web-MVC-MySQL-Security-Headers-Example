@@ -24,5 +24,6 @@ Project includes a sample of each:
 - Send email through gmail account (replace email host and port if not using gmail)
 - Social media share buttons.
 - Facebook comments plugin
+- Home page posts feed (Will be initially empty until you populate posts table)
 
 Enjoy :)
