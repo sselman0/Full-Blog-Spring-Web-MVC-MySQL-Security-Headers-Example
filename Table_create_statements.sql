@@ -1,3 +1,11 @@
+/*
+ Create Database 
+ */
+ CREATE DATABASE `blog` /*!40100 DEFAULT CHARACTER SET latin1 */;
+ 
+/*
+ Create tables
+*/
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(45) NOT NULL,
@@ -57,7 +65,7 @@ CREATE TABLE `contact_list` (
 /*
   Pre-populate posts table with two posts
 */
-INSERT INTO `contact`.`posts`
+INSERT INTO `blog`.`posts`
 (`title`,
 `source`,
 `img_source`,
@@ -67,7 +75,7 @@ INSERT INTO `contact`.`posts`
 VALUES
 ('Google Search Advanced Tricks','https://localhost:8443/webapp/posts/google-search-advanced-tricks','https://localhost:8443/webapp/resources/img/post1.jpg','If you are the type of person that uses Google often without knowing any search techniques, it can get frustrating filtering through the enourmous list of results.','You can be searching for whichever purpose, school essay, online tutorials, restaurants, etc. This can be very handy!!' ,'2018-02-20');
 
-INSERT INTO `contact`.`posts`
+INSERT INTO `blog`.`posts`
 (`title`,
 `source`,
 `img_source`,
