@@ -18,9 +18,9 @@ Project includes a sample of each:
 - Javax Validation
 - Automatic Contact reply
 - Email Subscription (Validation token verification included)
--Youtube video Gallery (Will only see Gallery template when you populate videos TABLE with sample URLS
+- Youtube video Gallery (Will only see Gallery template when you populate videos TABLE with sample URLS
 - Form/input validation
--Logging (log4j Spring configuration setup)
+- Logging (log4j Spring configuration setup)
 - Send email through gmail account (replace email host and port if not using gmail)
 - Social media share buttons.
 - Facebook comments plugin
