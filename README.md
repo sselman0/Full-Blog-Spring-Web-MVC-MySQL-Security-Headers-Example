@@ -22,5 +22,7 @@ Project includes a sample of each:
 - Form/input validation
 -Logging (log4j Spring configuration setup)
 - Send email through gmail account (replace email host and port if not using gmail)
+- Social media share buttons.
+- Facebook comments plugin
 
 Enjoy :)
