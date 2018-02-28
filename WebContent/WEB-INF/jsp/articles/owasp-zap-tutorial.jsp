@@ -72,16 +72,16 @@
 				<hr width="80%" align="center" noshade>
 				<div class="btn-toolbar">
 					<a
-						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//sselman.ca/owasp-zap-tutorial"
+						href="https://www.facebook.com/sharer/sharer.php?u=https%3A//localhost:8443/owasp-zap-tutorial"
 						class="btn btn-social-icon btn-facebook"> <span
 						class="fa fa-facebook"></span>
-					</a> <a href="https://twitter.com/home?status=https%3A//sselman.ca/posts/owasp-zap-tutorial" class="btn btn-social-icon btn-twitter"> <span
+					</a> <a href="https://twitter.com/home?status=https%3A//localhost:8443/posts/owasp-zap-tutorial" class="btn btn-social-icon btn-twitter"> <span
 						class="fa fa-twitter"></span>
-					</a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//plus.google.com/share?url=https%253A//sselman.ca/posts/owasp-zap-tutorial&title=OWASP%20ZAP%20Tutorial%20For%20Begginers&summary=&source=" class="btn btn-social-icon btn-linkedin"> <span
+					</a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//plus.google.com/share?url=https%253A//localhost:8443/posts/owasp-zap-tutorial&title=OWASP%20ZAP%20Tutorial%20For%20Begginers&summary=&source=" class="btn btn-social-icon btn-linkedin"> <span
 						class="fa fa-linkedin"></span>
-					</a><a href="https://plus.google.com/share?url=https%3A//sselman.ca/posts/owasp-zap-tutorial" class="btn btn-social-icon btn-google"> <span
+					</a><a href="https://plus.google.com/share?url=https%3A//localhost:8443/posts/owasp-zap-tutorial" class="btn btn-social-icon btn-google"> <span
 						class="fa fa-google"></span>
-					</a><a href="https://pinterest.com/pin/create/button/?url=https%3A//sselman.ca/resources/img/post2.jpg&media=https%3A//sselman.ca/posts/owasp-zap-tutorial&description=" class="btn btn-social-icon btn-pinterest"> <span
+					</a><a href="https://pinterest.com/pin/create/button/?url=https%3A//localhost:8443/resources/img/post2.jpg&media=https%3A//localhost:8443/posts/owasp-zap-tutorial&description=" class="btn btn-social-icon btn-pinterest"> <span
 						class="fa fa-pinterest"></span>
 					</a>
 				</div>
